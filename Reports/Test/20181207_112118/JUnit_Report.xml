@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test" time="6" tests="1" failures="0" errors="0">
+   <testsuite name="Test" tests="1" failures="0" errors="0" time="6" timestamp="2018-12-07 11:21:20" hostname="Sudheer V K - DESKTOP-PI2CB0J" id="Test Suites/Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\RCM_API\\RCM_API\\Reports\\Test\\20181207_112118"/>
+         <property name="logFiles" value="E:\\RCM_API\\RCM_API\\Reports\\Test\\20181207_112118\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Sudheer V K - DESKTOP-PI2CB0J"/>
+         <property name="hostAddress" value="172.16.1.190"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+      </properties>
+      <testcase name="Test Cases/SystemCategory/SystemCategory_01" classname="Test Cases/SystemCategory/SystemCategory_01" status="PASSED">
+         <system-out><![CDATA[2018-12-07 11:21:20 - [TEST_CASE][PASSED] - Test Cases/SystemCategory/SystemCategory_01: Test Cases/SystemCategory/SystemCategory_01
+
+2018-12-07 11:21:20 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("SystemCategory/System_Category")): Send request successfully
+
+2018-12-07 11:21:26 - [MESSAGE][INFO] - HAR: E:\RCM_API\RCM_API\Reports\Test\20181207_112118\requests\main\0.har
+
+2018-12-07 11:21:26 - [MESSAGE][PASSED] - Send request successfully
+
+2018-12-07 11:21:26 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2018-12-07 11:21:26 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-07 11:21:20 - [TEST_SUITE][PASSED] - Test: Test Cases/SystemCategory/SystemCategory_01]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

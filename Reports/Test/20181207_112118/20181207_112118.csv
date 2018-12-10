@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test,,,2018-12-07 11:21:20,2018-12-07 11:21:26,6.262s,PASSED
+,,,,,,
+Test Cases/SystemCategory/SystemCategory_01,,,2018-12-07 11:21:20,2018-12-07 11:21:26,5.817s,PASSED
+"response = sendRequest(findTestObject(""SystemCategory/System_Category""))",,,2018-12-07 11:21:20,2018-12-07 11:21:26,5.347s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2018-12-07 11:21:26,2018-12-07 11:21:26,0.013s,PASSED
